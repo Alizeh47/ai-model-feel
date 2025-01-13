@@ -5,6 +5,14 @@ export const formatCurrency = (amount: number): string => {
   }).format(amount);
 };
 
+export const formatPrice = (price: number): string => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  }).format(price);
+};
+
 export default {
   formatCurrency,
+  formatPrice,
 }; 
