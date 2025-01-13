@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Base styles */
+  :root {
+    --primary: #FFFFFF;
+    --secondary: #E8F1F8;
+    --accent: #1A2B3C;
+    --text: #1A1A1A;
+    --navy-blue: #0F172A;
+    --cream: #F5F5F0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-text bg-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  /* Smooth transitions */
+  a, button {
+    @apply transition-all duration-200;
+  }
+
+  /* Container padding */
+  .container {
+    @apply px-4 mx-auto;
+    max-width: 1440px;
+  }
+}
+
+@layer components {
+  /* Hero section */
+  .hero-gradient {
+    @apply absolute inset-0 bg-gradient-to-b from-transparent to-black/50;
+  }
+
+  /* Product card hover effects */
+  .product-card-hover {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md font-medium transition-colors;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+    @apply disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  /* Form elements */
+  .input {
+    @apply px-4 py-2 rounded-md border transition-colors;
+    @apply focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+}
+
+@layer utilities {
+  /* Custom utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+} 
