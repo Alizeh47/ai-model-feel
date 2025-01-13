@@ -3,31 +3,43 @@
 ## Project Requirements Document (PRD)
 
 ### 1. Visual Design Requirements
-- **Design Philosophy**: Modern, minimalist luxury approach with emphasis on whitespace and typography
+- **Design Philosophy**: Luxury outdoor lifestyle approach with dramatic photography and elegant typography
 - **Color Scheme**: 
-  - Primary: Cool white (#FFFFFF)
-  - Secondary: Soft blue (#E8F1F8)
-  - Accent: Deep navy (#1A2B3C)
+  - Primary: Warm cream (#F5F5F0)
+  - Secondary: Deep teal (#0A323D)
+  - Accent: Ocean blue (#2B4D5C)
   - Text: Rich black (#1A1A1A)
-  - CTA: Navy blue (#0F172A)
+  - Footer: Deep navy (#0A1A2A)
 
 - **Typography**:
-  - Headlines: "Canela" - Serif font family for luxury feel
-  - Body: "Neue Haas Grotesk" - Sans-serif for readability
-  - Navigation: "Helvetica Neue" - Clean, modern aesthetic
+  - Headlines: Dramatic serif font for impact statements
+  - Subheadings: Refined sans-serif for product labels
+  - Body: Clean sans-serif for readability
   - Font Sizes:
-    - Hero Text: 64px/72px
-    - Section Headers: 48px/56px
-    - Subheaders: 32px/40px
+    - Hero Statements: 72px/80px
+    - Section Headers: 56px/64px
+    - Product Labels: 14px/20px
     - Body Text: 16px/24px
-    - Small Text: 14px/20px
 
 ### 2. Layout Components
 - **Hero Section**:
-  - Full-width image layout
-  - Overlaid text with gradient protection
-  - Centered typography with brand statement
-  - Subtle parallax effect on scroll
+  - Full-width dramatic lifestyle photography
+  - Staggered typography overlay
+  - Dynamic subject composition
+  - Manufacturing partnership statement
+
+- **Content Grid**:
+  - Asymmetrical layout with overlapping elements
+  - Mixed-size image gallery
+  - Centered brand statement
+  - Lifestyle photography with labels
+
+- **Newsletter Section**:
+  - Deep teal/navy background
+  - Borderless email input
+  - Clean "Sign me up" button
+  - Brand logo integration
+  - Social media footer
 
 - **Product Grid**:
   - 3-column layout on desktop
@@ -73,18 +85,18 @@
 
 ### 2. Interaction Patterns
 - **Animations**:
-  - Scroll-triggered reveals
-  - Hover state transitions
-  - Page transitions
-  - Loading states
-  - Modal interactions
+  - Subtle text fade-ins on scroll
+  - Smooth image parallax effects
+  - Gentle hover transitions
+  - Refined loading states
+  - Elegant page transitions
 
 - **Micro-interactions**:
-  - Button hover effects
-  - Input field focus states
-  - Form validation feedback
-  - Success/error notifications
-  - Loading indicators
+  - Subtle button hover animations
+  - Minimal form field transitions
+  - Clean newsletter signup interaction
+  - Understated loading indicators
+  - Refined social media icon interactions
 
 ## Tech Stack & Dependencies
 
